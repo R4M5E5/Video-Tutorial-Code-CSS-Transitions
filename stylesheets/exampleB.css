@@ -1,0 +1,6 @@
+.example-b {
+    position: absolute;
+    background-color: red;
+    top: 200px;
+    transition: top 500ms;
+}

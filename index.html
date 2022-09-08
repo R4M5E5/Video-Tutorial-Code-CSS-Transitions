@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Css Transitions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stylesheets/exampleA.css">
+  <link rel="stylesheet" href="stylesheets/exampleB.css">
+  <link rel="stylesheet" href="stylesheets/exampleC.css">
+</head>
+
+<body>
+  
+    <div class="container">
+        
+        <!-- Example A -->
+        <div class ="item">
+            <div class="square example-a"></div>
+        </div>
+
+        <!-- Example B -->
+        <div class ="item" >
+            <div class="circle-track">
+                <div class="circle example-b" onclick="onClickExampleB(this)"></div>
+            </div>
+        </div>
+
+        <!-- Example C -->
+        <div class ="item" onclick="onClickExampleC()">
+            <div class="circle-track">
+                <div id="one" class="circle"></div>
+            </div>
+            <div  class="circle-track">
+                <div id="two" class="circle"></div>
+            </div>
+            <div  class="circle-track">
+                <div id="three" class="circle"></div>
+            </div>
+        </div>
+
+    </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

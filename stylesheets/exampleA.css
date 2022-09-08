@@ -1,0 +1,9 @@
+.example-a {
+    background-color: blue;
+    transition: background-color 1000ms, rotate 1000ms;
+}
+
+.example-a:hover {
+    background-color: red;
+    rotate: 45deg;
+}

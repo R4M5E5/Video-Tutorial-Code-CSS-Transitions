@@ -1,0 +1,2 @@
+# CSS Transitions Tutorial
+This repository contains the code for my css transitions tutorial. Please note that this code is not tested and may contain errors and therefore should not be used in a real app.

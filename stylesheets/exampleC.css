@@ -1,0 +1,24 @@
+#one {
+    position: absolute;
+    background-color: pink;
+    top: 200px;
+    transition: top 5000ms;
+    transition-timing-function: cubic-bezier();
+}
+
+#two {
+    position: absolute;
+    background-color: green;
+    top: 200px;
+    transition: top 5000ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+#three {
+    position: absolute;
+    background-color: magenta;
+    top: 200px;
+    transition: top 5000ms;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
